@@ -1,16 +1,16 @@
 
-# 🧠 Image Classification Model — ShadowFox Task (Beginner)
+#  Image Classification Model — ShadowFox Task (Beginner)
 
-## 📌 Project Title:
+##  Project Title:
 **Image Tagging using CNN on CIFAR-10 Dataset**
 
-## 🎯 Objective
+## Objective
 
 This project was developed as part of the **ShadowFox Beginner Task**, aimed at building a practical solution for **image tagging** using machine learning. The model is trained to classify input images into simple categories like **cat**, **dog**, **car**, etc., using a **Convolutional Neural Network (CNN)** built with **TensorFlow**.
 
 ---
 
-## 📂 What This Project Does
+##  What This Project Does
 
 - Trains a CNN on the CIFAR-10 dataset  
 - Categorizes images into 10 basic classes:
@@ -23,7 +23,7 @@ This project was developed as part of the **ShadowFox Beginner Task**, aimed at 
 
 ---
 
-## 🧰 Tools & Libraries Used
+##  Tools & Libraries Used
 
 - Python
 - TensorFlow / Keras
@@ -33,7 +33,7 @@ This project was developed as part of the **ShadowFox Beginner Task**, aimed at 
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 We use the **CIFAR-10 dataset**, a well-known beginner-friendly image classification dataset containing:
 - 60,000 color images (32×32 pixels)
@@ -42,7 +42,7 @@ We use the **CIFAR-10 dataset**, a well-known beginner-friendly image classifica
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Open the project in **Google Colab**
 2. Upload any image (JPEG/PNG, 3-channel RGB)
@@ -52,11 +52,11 @@ We use the **CIFAR-10 dataset**, a well-known beginner-friendly image classifica
    - Predict the class
    - Print the top prediction
 
-> ⚠️ Note: Real-world high-resolution photos are resized and may reduce model accuracy since the model is trained on small CIFAR-style images.
+> ⚠Note: Real-world high-resolution photos are resized and may reduce model accuracy since the model is trained on small CIFAR-style images.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - Conv2D → ReLU → MaxPooling
 - Conv2D → ReLU → MaxPooling
@@ -65,23 +65,15 @@ We use the **CIFAR-10 dataset**, a well-known beginner-friendly image classifica
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 ```
-✅ Predicted class: dog
+ Predicted class: cat
 ```
 
 ---
 
-## 📎 Future Improvements (Optional)
-
-- Use pretrained models like MobileNetV2 for higher accuracy
-- Build a custom dataset with real-world photos
-- Integrate GUI or Flask app for real-time image tagging
-
----
-
-## 🙌 Credits
+## Credits
 
 - Task provided by **ShadowFox - Learn • Create • Lead**
 - Model built using TensorFlow in Python (Colab)
